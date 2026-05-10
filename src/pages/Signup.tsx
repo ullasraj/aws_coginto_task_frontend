@@ -34,7 +34,7 @@ const Signup: React.FC = () => {
       setLoading(true);
 
       const response = await signupApi(formData);
-
+      console.log(response.data);
       localStorage.setItem("verifyEmail", formData.email);
 
       toast.success("OTP sent successfully");

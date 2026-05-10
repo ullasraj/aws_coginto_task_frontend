@@ -72,7 +72,7 @@ const OtpVerification: React.FC = () => {
         email,
         otp: otpCode,
       });
-
+      console.log(response.data);
       toast.success("Account verified successfully");
 
       navigate("/login");
