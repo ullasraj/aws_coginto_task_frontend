@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { User, Mail, Lock, Eye, EyeOff, UserPlus } from "lucide-react";
 
-import axios from "axios";
 import { signupApi } from "../services/authApi";
 import { toast } from "react-toastify";
 

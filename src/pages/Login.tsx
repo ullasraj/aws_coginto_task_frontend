@@ -94,11 +94,7 @@ const Login: React.FC = () => {
         </div>
 
         <div className="form-options">
-          <label className="checkbox-label">
-            <input type="checkbox" className="custom-checkbox" />
-
-            <span>Remember me</span>
-          </label>
+          <label className="checkbox-label"></label>
 
           <Link to="/forgot-password" className="auth-link">
             Forgot Password?

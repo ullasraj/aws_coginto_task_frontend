@@ -98,7 +98,7 @@ const ForgotPassword: React.FC = () => {
           </p>
 
           <Link
-            to="/reset-password"
+            to="/change-password"
             style={{
               textDecoration: "none",
             }}

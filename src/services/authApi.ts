@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:3002/dev/auth";
+const API = "https://n494g3e6p9.execute-api.ap-south-1.amazonaws.com/dev/auth";
 
 export const signupApi = async (data: any) => {
   const response = await axios.post(`${API}/signup`, data);
